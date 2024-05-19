@@ -1,0 +1,92 @@
+@import "flatpickr/dist/flatpickr.min.css";
+
+
+/*LOGIN PAGE CSS*/
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Control the left side */
+.left-split {
+    left: 0;
+    background-color: #EEEEEE;
+}
+
+/* Control the right side */
+.right {
+    right: 0;
+    background-color: #fff;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*text-align: center;*/
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+    width: 300px;
+}
+
+.banner_text_login {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+    color: #5A61C4;
+}
+
+.login-label {
+    margin-right: 450px;
+    font-size: 12px;
+}
+
+.login_input {
+    font-size: 12px;
+}
+
+.forgot_pass {
+    /*margin-right: 330px;*/
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.hr-lines {
+    width: 80%;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    line-height: 0.1em;
+    margin: 0 20px 0 67px;
+}
+
+.hr-lines-2 {
+    background:#fff;
+    padding:0 10px;
+}
+
+.login_span_error {
+    font-size: 12px;
+}
+
+.dashboard_logo {
+    margin-right: 12px;
+    margin-left: 10px;
+}
+
+.logo-text {
+    color: #5A61C4;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .2px;
+}
+/* End of LOGIN PAGE CSS */
